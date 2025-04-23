@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Smartfix</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="css/gallery.css">
+
+   <link rel="icon" type="image/png" href="images2/favicon.png">
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+
+   <nav class="navbar">
+
+      <a href="#" class="logo"> <img src="images2/logo.png"></a>
+
+      <div class="links">
+         <a href="home.html">Home</a>
+         <a href="services.html">services</a>
+         <a href="gallery.html">gallery</a>
+         <a href="team.html">team</a>
+         <a href="reviews.html">reviews</a>
+         <a href="contact.html">contact us</a>
+      </div>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </nav>
+
+</header>
+
+<section class="gallery" id="gallery">
+
+   <h1 class="heading"> our <span>gallery</span> </h1>
+
+   <div class="gallery-container">
+
+      <a class="box" href="images2/g-img-1.jpg"><img src="images2/g-img-1.jpg" alt=""></a>
+      <a class="box" href="images2/g-img-2.jpg"><img src="images2/g-img-2.jpg" alt=""></a>
+      <a class="box" href="images2/g-img-3.jpg"><img src="images2/g-img-3.jpg" alt=""></a>
+      <a class="box" href="images2/g-img-4.jpg"><img src="images2/g-img-4.jpg" alt=""></a>
+      <a class="box" href="images2/g-img-5.jpg"><img src="images2/g-img-5.jpg" alt=""></a>
+      <a class="box" href="images2/g-img-6.jpg"><img src="images2/g-img-6.jpg" alt=""></a>
+      <a class="box" href="images2/g-img-7.jpg"><img src="images2/g-img-7.jpg" alt=""></a>
+      <a class="box" href="images2/g-img-8.jpg"><img src="images2/g-img-8.jpg" alt=""></a>
+
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- facilities section starts  -->
+
+<section class="facilities">
+
+   <h1 class="heading"> why <span>choose us?</span> </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images2/why-choose-icon-1.jpg" alt="">
+         <h3>24/7 support</h3>
+         <p>Got a problem? Our support team is available around the clock to assist you. Whether it's day or night, we're just a call or click away ro resolve your issues quickly and efficiently.</p>
+      </div>
+
+      <div class="box">
+         <img src="images2/why-choose-icon-2.jpg" alt="">
+         <h3>quality service</h3>
+         <p>We believe in delivering top-notch service every time. Our skilled technicians use the lastest tools and techniques to ensures your devices are repaired with the highest standards of 
+         quality.</p>
+      </div>
+
+      <div class="box">
+         <img src="images2/why-choose-icon-3.jpg" alt="">
+         <h3>quick repair</h3>
+         <p>Time is valuable. That's why we focus on fast turnaround times without compromising on quality. Get your devices back up and running in no time with our efficient repair services.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a class="link" href="home.html"> <i class="fas fa-angle-right"></i> home</a>
+         <a class="link" href="services.html"> <i class="fas fa-angle-right"></i> services</a>
+         <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
+         <a class="link" href="team.html"> <i class="fas fa-angle-right"></i> team</a>
+         <a class="link" href="reviews.html"> <i class="fas fa-angle-right"></i> reviews</a>
+         <a class="link" href="contact.html"> <i class="fas fa-angle-right"></i> contact</a>
+      </div>
+
+      <div class="box">
+         <h3>opening hours</h3>
+         <p> <span>monday :</span> 10:00am to 00:09pm </p>
+         <p> <span>tuesday :</span> 10:00am to 00:09pm </p>
+         <p> <span>wednesday :</span> 10:00am to 00:09pm </p>
+         <p> <span>thursday :</span> 10:00am to 00:09pm </p>
+         <p> <span>friday :</span> 10:00am to 00:09pm </p>
+         <p> <span>saturday :</span> 10:00am to 00:09pm </p>
+         <p> <span>sunday :</span> closed </p>
+      </div>
+
+      <div class="box">
+         <h3>newsletter</h3>
+         <p>subscribe for latest updates</p>
+         <form action="">
+            <input type="email" name="" placeholder="enter your email" id="" class="email">
+            <input type="submit" value="subscribe" class="btn">
+         </form>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>SMARTFIX.INC</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="js/gallery.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
